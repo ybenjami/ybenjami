@@ -1,64 +1,25 @@
 # Yaron Benjamin
 
-Builder. CEO. Focused on how modern systems actually work.
+Software architect and founder. I design and build platforms, and write about the decisions behind them.
 
-I spend most of my time designing and building:
-- AI-powered systems and agent workflows
-- composable architectures (CMS, commerce, data)
-- backend services that sit between products and reality
+Twenty years across enterprise, commerce, loyalty and content platforms: from a DoD engineer, to directing a 60+ person technology team, to founding [Aionic Digital](https://aionicdigital.com), where I still architect client platforms and build AI agents that work inside real systems.
 
----
+🌐 [yaronbenjamin.com](https://yaronbenjamin.com) · 💼 [LinkedIn](https://www.linkedin.com/in/ybenjami)
 
-## Current Focus
+## Writing
 
-Right now I’m working through a series:
+- [Building a CMS publishing agent with Eve and Contentful](https://yaronbenjamin.com/writing/cms-publishing-agent-eve): why I built an agent that can prepare content but can't publish it, and why the hard part was behavior, not the integration.
+- [Content vs. context](https://yaronbenjamin.com/writing/content-vs-context): what twenty years of CMS migrations taught me about content models.
+- [Why I stopped building websites and started building platforms](https://yaronbenjamin.com/writing/platforms-over-projects): the economics of projects vs. platforms, and when a platform is the wrong call.
 
-### RAG From Scratch (Node.js)
+## Selected repos
 
-A ground-up exploration of Retrieval-Augmented Generation — without frameworks.
+- **[cms-publishing-agent](https://github.com/ybenjami/cms-publishing-agent)**: an Eve agent that turns plain-language requests into Contentful drafts. Publishing is blocked by a tool allow-list, not a prompt, and the edge cases are covered by evals.
+- **[yaronbenjamin](https://github.com/ybenjami/yaronbenjamin)**: source for my site. Next.js 16, Tailwind 4, MDX, with lint, typecheck and build gated in CI.
+- **[rag-from-scratch](https://github.com/ybenjami/rag-from-scratch)**: RAG built from first principles in Node.js, no frameworks. Part 1 covers chunking, embeddings and cosine similarity.
 
-- Part 1: Core pipeline (chunking, embeddings, cosine similarity)
-- Part 2: Persistent vector storage (pgvector)
-- Part 3: Multi-document retrieval
-- Part 4: Streaming + chat interface
-- Part 5: Agentic RAG (tools, workflows)
+## What I work on
 
-→ Goal: understand how these systems actually work before abstracting them away.
-
----
-
-## Selected Work
-
-- RAG pipelines (Node.js)
-- Agent-based systems (MCP, tool orchestration)
-- Data pipelines and transformation layers
-- Contentful / composable DXP implementations
-
----
-
-## Perspective
-
-Most systems don’t fail because of the tools.
-
-They fail because:
-- the data isn’t structured for how it’s used
-- integrations are thought through too late
-- workflows aren’t modeled end-to-end
-
-I’m interested in fixing that layer.
-
----
-
-## Outside of GitHub
-
-Founder of Aionic — a firm focused on:
-- composable architecture
-- AI readiness
-- modern digital platforms
-
----
-## Connect
-You can reach me on [LinkedIn](https://www.linkedin.com/in/ybenjami) or [GitHub](https://github.com/ybenjami).
-
-## Last Updated
-This README was last updated on 2026-05-03 01:53:31 UTC.](https://www.linkedin.com/in/yaronbenjamin)
+- **Architecture:** composable commerce and content, event-driven backends, middle tiers and integration layers
+- **AI-native software:** agents, MCP, guardrails and evals, human-in-the-loop design
+- **Stack:** TypeScript, Next.js, React, Node.js, Java · Contentful, Contentstack, commercetools, Algolia · Vercel, AWS, Azure
