@@ -23,6 +23,7 @@ My current focus is building AI-enabled systems that integrate with real enterpr
 | Project | Description |
 |---|---|
 | [cms-publishing-agent](https://github.com/ybenjami/cms-publishing-agent) | A draft-only AI agent built with Eve and Contentful MCP. Demonstrates least-privilege tool access, per-user OAuth, deterministic guardrails and behavioral evaluations. |
+| [contentful-rag](https://github.com/ybenjami/contentful-rag) | An event-driven enterprise RAG reference implementation using AWS SAM, API Gateway, SQS, Lambda, OpenAI embeddings and pgvector. Explores content lifecycle synchronization, semantic chunking and retrieval reliability. |
 | [rag-from-scratch](https://github.com/ybenjami/rag-from-scratch) | Retrieval-augmented generation implemented from first principles in Node.js, exploring chunking, embeddings and cosine similarity without framework abstractions. |
 | [yaronbenjamin](https://github.com/ybenjami/yaronbenjamin) | Personal engineering website built with Next.js 16, Tailwind CSS 4 and MDX, with linting, type checking and builds enforced through CI. |
 
